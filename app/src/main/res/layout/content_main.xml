@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/bgColor"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:id="@+id/visibleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/contentMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:scrollbarThumbVertical="@drawable/scroll"
+            android:scrollbarSize="4dp"/>
+
+        <RelativeLayout
+            android:id="@+id/hiddenBarMainScreen"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="false"
+            android:visibility="invisible">
+
+            <ImageButton
+                android:id="@+id/playpauseButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="31dp"
+                android:background="@drawable/ic_pause_button" />
+
+            <ImageView
+                android:id="@+id/defaultMusic"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="13dp"
+                android:background="@drawable/now_play"
+                android:minHeight="0dp"
+                android:minWidth="0dp" />
+
+            <TextView
+                android:id="@+id/nowPlaying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/playpauseButton"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="11dp"
+                android:layout_toRightOf="@+id/defaultMusic"
+                android:text="Now playing"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/songTitleMainScreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/nowPlaying"
+                android:layout_alignStart="@+id/nowPlaying"
+                android:layout_below="@+id/nowPlaying"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:maxWidth="160dp"
+                android:singleLine="true"
+                android:text="..."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#fff" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/noSongs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="You do not have any songs at the moment"
+            android:textColor="#fff" />
+
+    </RelativeLayout>
+</RelativeLayout>

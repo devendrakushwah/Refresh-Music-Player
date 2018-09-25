@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="13dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/joey"
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/about_us_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/joey"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:gravity="center"
+            android:textColor="#212121"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_us_text"
+            android:layout_centerHorizontal="true"
+            android:text="App version: 1.0"
+            android:textColor="#939390"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/liscence"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:text="Licenses"
+            android:background="@color/bgColor"
+            android:textColor="#939390"
+            android:textSize="10sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

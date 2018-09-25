@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Source Licenses"
+        android:textSize="24dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/line" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Cleveroad Visualizer"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="https://github.com/Cleveroad/WaveInApp"
+        android:textSize="14dp"
+        android:textColor="#fff" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/line" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="AndroidEqualizer"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="https://github.com/mosamabinomar/AndroidEqualizer"
+        android:textSize="14dp"
+        android:textColor="#fff" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/line" />
+</LinearLayout>
