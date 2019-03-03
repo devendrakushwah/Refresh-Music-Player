@@ -22,7 +22,6 @@ class SplashActivty : AppCompatActivity() {
 
     var permissionsString = arrayOf(Manifest.permission.READ_EXTERNAL_STORAGE,
             Manifest.permission.MODIFY_AUDIO_SETTINGS,
-            Manifest.permission.READ_PHONE_STATE,
             Manifest.permission.RECORD_AUDIO)
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,8 +48,8 @@ class SplashActivty : AppCompatActivity() {
         when (requestCode) {
             131 -> {
                 if (grantResults.isNotEmpty()
-                        && grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED
-                        && grantResults[2] == PackageManager.PERMISSION_GRANTED && grantResults[3] == PackageManager.PERMISSION_GRANTED) {
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED &&
+                        grantResults[2] == PackageManager.PERMISSION_GRANTED) {
                     Handler().postDelayed({
                         /* Create an Intent that will start the Menu-Activity. */
                         val mainIntent = Intent(this@SplashActivty, MainActivity::class.java)

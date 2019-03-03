@@ -1,45 +1,45 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-47:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8d58fe003c91ef5573fd4fcb5def7881\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8a158b168df45c992262ca7a259f8860\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\8c758c62fa433d1defd3e93c2082fde7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\668f995b6bda33a8ebbda9474c6f8211\AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\7873af25812a5bcd730190a80294558b\AndroidManifest.xml:2:1-11:12
-MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\c9352dd93590d168f519077e916eb880\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\c93432a30f553e7b6ff1450f91607ddf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9951c5ac8f44b97ffb181a39266ba53b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\fd107354f1010bca70f0b9b3f8f4ab0b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\16768088e200a04c09abfd3fc4c05ed2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fc85ff7e1d19146852101739e932fc17\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c6f0c6af0b5acc17d8b8255d89ca4a1b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\851775c79f40a366e0c2835287f1e5c0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\21922c5d942e8335574ca9aa5fda9946\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ea3d7bc1aee51226398943bb703f7f47\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\897db0594a9fca02ba65293b285a65d5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\22fdb2f5614e21346beced86116363f6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\da3084d8da1ea02651bf9e6e4dd04cee\AndroidManifest.xml:2:1-10:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\28950e957afd4d96d6bae2dc62cf7b8d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\035150b67c934f32e3868cb834cf479a\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2b9b36f1c8119b720b701c17d7a6984f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5ae0be263be3a3149e68dae4c2b0462f\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3da192a091c1212e350150b7c6508c50\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e9dd0a3b593034ea8dad7a28492c09f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9f74c8b12654004f20f500fdfd6620f2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\430cfd9556d984fddcd217e1e30b0e16\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\b24594cc29b7fed2574032d7e33653aa\AndroidManifest.xml:2:1-11:12
+MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\ccb4f4df83613e9d4625d0bb64b212f4\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4bb0e9c3a347ec45db9dcabb81d7a841\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9989b3182d328edf390396a5f74f40cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c559dcf97fbf2cc17eccee0e70ce6cea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e3a0a2794d2942a61a3943b6e739b7f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dc0b57c382a10e19ce3729084797a28d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\b5d239652867b6bdce4ea4b2e5f9ed86\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\21c4c8151d501e4997bd576ad4fe4dde\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bb7a383486d9251fb2fa6f1d1df97d73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\9b041f639790d2f3131773e27ed880fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8716486cb42c16398690ad3f0fc913b8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\254549e2db4b04bfb577c3c98ffae6f0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\2677bf1481aa92c27db23ac7609f5cbf\AndroidManifest.xml:2:1-10:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a2ece566709ee9e6011797727fcd47ee\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5806fa6239a2db278c2baf5fc24bbf5d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1b6a7f605d10006807c13ec623f4508a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02a93556eef6804a83c6b51665da847e\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-47:12
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-47:12
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:11-69
@@ -61,122 +61,126 @@ uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
 ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
 		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:11:22-77
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:12:5-75
-	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:12:22-72
-uses-permission#android.permission.PROCESS_OUTGOING_CALLS
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:13:5-81
-	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:13:22-78
 application
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:15:5-45:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8d58fe003c91ef5573fd4fcb5def7881\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8d58fe003c91ef5573fd4fcb5def7881\AndroidManifest.xml:9:5-20
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:13:5-50:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3da192a091c1212e350150b7c6508c50\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3da192a091c1212e350150b7c6508c50\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:16:9-41
 	android:icon
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:20:9-40
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:18:9-40
 activity#example.com.refresh.activties.SplashActivty
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:21:9-31:20
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:19:9-29:20
 	android:screenOrientation
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:24:13-49
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:22:13-49
 	android:label
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:23:13-45
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:21:13-45
 	android:theme
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:25:13-56
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:22:13-52
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:20:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:27:27-74
 activity#example.com.refresh.activties.MainActivity
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:32:9-35:59
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:30:9-33:59
 	android:screenOrientation
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:32:13-49
 	android:theme
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:35:13-56
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:33:13-51
-receiver#example.com.refresh.utils.CaptureBroadcast
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:37:9-42:20
-	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:37:19-57
-intent-filter#action:name:android.intent.action.NEW_OUTGOING_CALL+action:name:android.intent.action.PHONE_STATE
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:38:13-41:29
-action#android.intent.action.PHONE_STATE
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:39:17-76
-	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:39:25-73
-action#android.intent.action.NEW_OUTGOING_CALL
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:40:17-82
-	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:40:25-79
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:31:13-51
 activity#example.com.refresh.activties.EqualizeActivity
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:44:9-73
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:34:9-64
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:44:19-61
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:34:19-61
+service#example.com.refresh.services.BackgroundAudioService
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:36:9-39:39
+	android:enabled
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:37:13-60
+receiver#example.com.refresh.utils.OutgoingCallReciever
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:41:9-44:39
+	android:enabled
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:43:13-35
+	android:exported
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:42:13-55
+activity#example.com.refresh.activties.SearchActivity
+ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:46:9-49:47
+	android:screenOrientation
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:47:13-49
+	android:parentActivityName
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:48:13-65
+	android:label
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:49:13-35
+	android:name
+		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:46:19-59
 uses-sdk
 INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8d58fe003c91ef5573fd4fcb5def7881\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8d58fe003c91ef5573fd4fcb5def7881\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8a158b168df45c992262ca7a259f8860\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8a158b168df45c992262ca7a259f8860\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\8c758c62fa433d1defd3e93c2082fde7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\8c758c62fa433d1defd3e93c2082fde7\AndroidManifest.xml:20:5-44
-MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\668f995b6bda33a8ebbda9474c6f8211\AndroidManifest.xml:8:5-10:41
-MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\668f995b6bda33a8ebbda9474c6f8211\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\7873af25812a5bcd730190a80294558b\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\7873af25812a5bcd730190a80294558b\AndroidManifest.xml:7:5-9:41
-MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\c9352dd93590d168f519077e916eb880\AndroidManifest.xml:23:5-25:41
-MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\c9352dd93590d168f519077e916eb880\AndroidManifest.xml:23:5-25:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\c93432a30f553e7b6ff1450f91607ddf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\c93432a30f553e7b6ff1450f91607ddf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9951c5ac8f44b97ffb181a39266ba53b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9951c5ac8f44b97ffb181a39266ba53b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\fd107354f1010bca70f0b9b3f8f4ab0b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\fd107354f1010bca70f0b9b3f8f4ab0b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\16768088e200a04c09abfd3fc4c05ed2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\16768088e200a04c09abfd3fc4c05ed2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fc85ff7e1d19146852101739e932fc17\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\fc85ff7e1d19146852101739e932fc17\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c6f0c6af0b5acc17d8b8255d89ca4a1b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c6f0c6af0b5acc17d8b8255d89ca4a1b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\851775c79f40a366e0c2835287f1e5c0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\851775c79f40a366e0c2835287f1e5c0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\21922c5d942e8335574ca9aa5fda9946\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\21922c5d942e8335574ca9aa5fda9946\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ea3d7bc1aee51226398943bb703f7f47\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ea3d7bc1aee51226398943bb703f7f47\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\897db0594a9fca02ba65293b285a65d5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\897db0594a9fca02ba65293b285a65d5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\22fdb2f5614e21346beced86116363f6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\22fdb2f5614e21346beced86116363f6\AndroidManifest.xml:20:5-44
-MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\da3084d8da1ea02651bf9e6e4dd04cee\AndroidManifest.xml:6:5-8:41
-MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\da3084d8da1ea02651bf9e6e4dd04cee\AndroidManifest.xml:6:5-8:41
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\28950e957afd4d96d6bae2dc62cf7b8d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\28950e957afd4d96d6bae2dc62cf7b8d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\035150b67c934f32e3868cb834cf479a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\035150b67c934f32e3868cb834cf479a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2b9b36f1c8119b720b701c17d7a6984f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2b9b36f1c8119b720b701c17d7a6984f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5ae0be263be3a3149e68dae4c2b0462f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5ae0be263be3a3149e68dae4c2b0462f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3da192a091c1212e350150b7c6508c50\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3da192a091c1212e350150b7c6508c50\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e9dd0a3b593034ea8dad7a28492c09f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e9dd0a3b593034ea8dad7a28492c09f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9f74c8b12654004f20f500fdfd6620f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9f74c8b12654004f20f500fdfd6620f2\AndroidManifest.xml:20:5-44
+MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\430cfd9556d984fddcd217e1e30b0e16\AndroidManifest.xml:8:5-10:41
+MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\430cfd9556d984fddcd217e1e30b0e16\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\b24594cc29b7fed2574032d7e33653aa\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\b24594cc29b7fed2574032d7e33653aa\AndroidManifest.xml:7:5-9:41
+MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\ccb4f4df83613e9d4625d0bb64b212f4\AndroidManifest.xml:23:5-25:41
+MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\ccb4f4df83613e9d4625d0bb64b212f4\AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4bb0e9c3a347ec45db9dcabb81d7a841\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4bb0e9c3a347ec45db9dcabb81d7a841\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9989b3182d328edf390396a5f74f40cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9989b3182d328edf390396a5f74f40cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c559dcf97fbf2cc17eccee0e70ce6cea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c559dcf97fbf2cc17eccee0e70ce6cea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e3a0a2794d2942a61a3943b6e739b7f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e3a0a2794d2942a61a3943b6e739b7f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dc0b57c382a10e19ce3729084797a28d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dc0b57c382a10e19ce3729084797a28d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\b5d239652867b6bdce4ea4b2e5f9ed86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\b5d239652867b6bdce4ea4b2e5f9ed86\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\21c4c8151d501e4997bd576ad4fe4dde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\21c4c8151d501e4997bd576ad4fe4dde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bb7a383486d9251fb2fa6f1d1df97d73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bb7a383486d9251fb2fa6f1d1df97d73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\9b041f639790d2f3131773e27ed880fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\9b041f639790d2f3131773e27ed880fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8716486cb42c16398690ad3f0fc913b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8716486cb42c16398690ad3f0fc913b8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\254549e2db4b04bfb577c3c98ffae6f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\254549e2db4b04bfb577c3c98ffae6f0\AndroidManifest.xml:20:5-44
+MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\2677bf1481aa92c27db23ac7609f5cbf\AndroidManifest.xml:6:5-8:41
+MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\2677bf1481aa92c27db23ac7609f5cbf\AndroidManifest.xml:6:5-8:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a2ece566709ee9e6011797727fcd47ee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a2ece566709ee9e6011797727fcd47ee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5806fa6239a2db278c2baf5fc24bbf5d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5806fa6239a2db278c2baf5fc24bbf5d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1b6a7f605d10006807c13ec623f4508a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1b6a7f605d10006807c13ec623f4508a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02a93556eef6804a83c6b51665da847e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02a93556eef6804a83c6b51665da847e\AndroidManifest.xml:20:5-44
 INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

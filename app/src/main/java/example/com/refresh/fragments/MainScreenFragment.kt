@@ -3,6 +3,7 @@ package example.com.refresh.fragments
 import android.app.Activity
 import android.content.Context
 import android.content.Context.MODE_PRIVATE
+import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.provider.MediaStore
@@ -18,7 +19,8 @@ import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
 import example.com.refresh.R
-import example.com.refresh.R.id.action_sort_recent
+import example.com.refresh.R.id.*
+import example.com.refresh.activties.SearchActivity
 import example.com.refresh.adapters.MainScreenAdapter
 import example.com.refresh.fragments.MainScreenFragment.Statified.mMediaPlayer
 import example.com.refresh.models.Songs
@@ -152,6 +154,10 @@ class MainScreenFragment : Fragment() {
             editortwo?.putString("action_sort_ascending", "false")
             editortwo?.apply()
             return false
+        }
+        else if(switcher == action_search){
+            var searchIntent = Intent(activity,SearchActivity::class.java)
+            startActivity(searchIntent)
         }
         return super.onOptionsItemSelected(item)
     }

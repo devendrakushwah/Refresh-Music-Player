@@ -9,8 +9,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    
 
     <application
         android:allowBackup="true"
@@ -33,15 +31,22 @@
             android:name=".activties.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activties.EqualizeActivity" />
 
-        <receiver android:name=".utils.CaptureBroadcast">
-            <intent-filter>
-                <action android:name="android.intent.action.PHONE_STATE" />
-                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
-            </intent-filter>
-        </receiver>
+        <service
+            android:name=".services.BackgroundAudioService"
+            android:enabled="true"
+            android:exported="true" />
 
-        <activity android:name=".activties.EqualizeActivity"></activity>
+        <receiver
+            android:name=".utils.OutgoingCallReciever"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activties.SearchActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".activties.MainActivity"
+            android:label="Search"></activity>
     </application>
 
 </manifest>

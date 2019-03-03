@@ -166,7 +166,6 @@ class SongPlayingFragment : Fragment() {
         mAccelerationCurrent = SensorManager.GRAVITY_EARTH
         mAccelerationLast = SensorManager.GRAVITY_EARTH
         bindShakeListener()
-
     }
 
     override fun onPause() {

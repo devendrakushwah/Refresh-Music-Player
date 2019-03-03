@@ -14,12 +14,15 @@ import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
+import android.telephony.PhoneStateListener
+import android.telephony.TelephonyManager
 import example.com.refresh.R
 import example.com.refresh.activties.MainActivity.Staticated.drawerLayout
 import example.com.refresh.activties.MainActivity.Staticated.notificationManager
 import example.com.refresh.adapters.NavigationDrawerAdapter
 import example.com.refresh.fragments.MainScreenFragment
 import example.com.refresh.fragments.SongPlayingFragment
+import example.com.refresh.services.BackgroundAudioService
 import java.util.*
 
 
@@ -44,6 +47,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val toolbar = findViewById(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
+
+        val audioIntent = Intent(this@MainActivity,BackgroundAudioService::class.java)
+        startService(audioIntent)
 
         navigationDrawerIconsList.add("All songs")
         navigationDrawerIconsList.add("Favorites")
@@ -111,6 +117,12 @@ class MainActivity : AppCompatActivity() {
         } catch (ee: Exception) {
             ee.printStackTrace()
         }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        val audioIntent = Intent(this@MainActivity,BackgroundAudioService::class.java)
+        stopService(audioIntent)
     }
 
 }
