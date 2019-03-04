@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.mosamabinomar:AndroidEqualizer-1.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AndroidEqualizer-1.0.aar/b24594cc29b7fed2574032d7e33653aa/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AndroidEqualizer-1.0.aar/b24594cc29b7fed2574032d7e33653aa/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AndroidEqualizer-1.0.aar/ae5870e1c4cf11c2952970c1b2123b93/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/AndroidEqualizer-1.0.aar/ae5870e1c4cf11c2952970c1b2123b93/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.diogobernardino:williamchart-2.2">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/williamchart-2.2.aar/2677bf1481aa92c27db23ac7609f5cbf/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/williamchart-2.2.aar/2677bf1481aa92c27db23ac7609f5cbf/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/williamchart-2.2.aar/477d47ec921f41fc95db92e945dd8ae5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/williamchart-2.2.aar/477d47ec921f41fc95db92e945dd8ae5/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

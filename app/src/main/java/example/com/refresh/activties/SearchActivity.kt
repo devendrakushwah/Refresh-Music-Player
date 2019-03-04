@@ -1,25 +1,34 @@
 package example.com.refresh.activties
 
+import android.content.Context
+import android.media.MediaPlayer
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
+import android.support.v4.app.FragmentActivity
+import android.support.v7.widget.RecyclerView
 import android.text.InputType
 import example.com.refresh.R
 import example.com.refresh.models.Songs
-import android.widget.EditText
-import android.widget.ListView
 import example.com.refresh.adapters.SearchAdapter
 import android.text.TextWatcher
 import android.view.View
-import android.widget.AdapterView
 import android.text.Editable
 import android.util.Log
+import android.widget.*
+import example.com.refresh.fragments.SongPlayingFragment
+import example.com.refresh.fragments.SongPlayingFragment.Statified.mediaPlayer
+import kotlinx.android.synthetic.main.search_result_item.view.*
 
 var searchBox: EditText? = null
 var listView: ListView? = null
 var adapter : SearchAdapter ?=null
+var songDetails: ArrayList<Songs>? = null
 
-class SearchActivity : AppCompatActivity() {
+class SearchActivity :AppCompatActivity() {
+
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,9 +43,12 @@ class SearchActivity : AppCompatActivity() {
                 // TODO Auto-generated method stub
 
 
-
             }
         }
+
+
+
+
         searchBox?.addTextChangedListener(object : TextWatcher {
 
             override fun afterTextChanged(s: Editable) {
@@ -99,7 +111,7 @@ class SearchActivity : AppCompatActivity() {
                     val dateadded = songCursor.getLong(dateIndex)
                     arrayList.add(Songs(currentId, currentTitle, currentArtist, fullpath, dateadded))
                 }
-               // Log.d("full",arrayList.toString())
+                // Log.d("full",arrayList.toString())
             }
         }
         catch(e:Exception){}

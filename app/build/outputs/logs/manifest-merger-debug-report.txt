@@ -1,193 +1,442 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3da192a091c1212e350150b7c6508c50\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e9dd0a3b593034ea8dad7a28492c09f1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9f74c8b12654004f20f500fdfd6620f2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\430cfd9556d984fddcd217e1e30b0e16\AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\b24594cc29b7fed2574032d7e33653aa\AndroidManifest.xml:2:1-11:12
-MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\ccb4f4df83613e9d4625d0bb64b212f4\AndroidManifest.xml:17:1-27:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4bb0e9c3a347ec45db9dcabb81d7a841\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9989b3182d328edf390396a5f74f40cd\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c559dcf97fbf2cc17eccee0e70ce6cea\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e3a0a2794d2942a61a3943b6e739b7f5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dc0b57c382a10e19ce3729084797a28d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\b5d239652867b6bdce4ea4b2e5f9ed86\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\21c4c8151d501e4997bd576ad4fe4dde\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bb7a383486d9251fb2fa6f1d1df97d73\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\9b041f639790d2f3131773e27ed880fe\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8716486cb42c16398690ad3f0fc913b8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\254549e2db4b04bfb577c3c98ffae6f0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\2677bf1481aa92c27db23ac7609f5cbf\AndroidManifest.xml:2:1-10:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a2ece566709ee9e6011797727fcd47ee\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5806fa6239a2db278c2baf5fc24bbf5d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1b6a7f605d10006807c13ec623f4508a\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02a93556eef6804a83c6b51665da847e\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-65:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\94207cc380c82c9e2399e4f6f3bf6f48\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\cc205acfa38e303a625391e0c61cc146\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\43b776b27c527c1379386d82ca4d7671\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\6b89da413bf824a844b3f15a0acfcc5f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\d7bfa60290a9771483dbcd7c75a7070e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\03c5992bbbda90d63012d77782f53fdc\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\2c2f8089f5c677bda40f8f08e1ed3c3f\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\f897dd343bb87f804f7105d3c0f0f89d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\f16f7ff8f9162bd15accc28a52eea2da\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\3408d68991a600583c88146108ca19f6\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\bca52435da78d666855f0f9a364fa98b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\abf0617307b742f63d29d891b915e12c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d585b73a1ced944c7071ae3c790b42ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\97bc5e45f9b3d800701d7eb3e4b0867d\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\c19585cea86b572559b31dee6677f276\AndroidManifest.xml:2:1-11:12
+MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\46ffa1c5b95c06fc4ae9ca8e8253bc80\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\542832b0c291f04d7afd9db5e5009f57\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\000816f3d6c63cba89fceda51bd1d62f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\6861e91df283d203a4d5034774f6c7af\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\5e8266065bbe255b4fa4889b11b76d19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6f443c26402224cbc58dd62d3332a92b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\4b58adbcddd2284a0502561d27af5cbc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\43e5d17d9aea82745173f4d97ff8e219\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\e37c0f3eda85cc04629ee2f647e70b2d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f31d4eeac6c34e034a91b3c821d55004\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\02248f71b1050317f2c74c5d7ee7ed4f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\fab682d93d1e357155d1bc33fc5aa3c3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\3ca2dfe124960bfa9084027f57b5d398\AndroidManifest.xml:2:1-10:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4f983db670b33e943ce4a893ab9ea11c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5d5a39bbc15cec61ad16b645c2e8f285\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fc356efa750a5b95ff00e2f12a69f809\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\304c5adf17f2a3aaf77d1102892d2af8\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\479b754c137fe25b29e42b8ace4fc80c\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-65:12
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-65:12
 	package
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:3:5-34
-		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
-		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-65:12
+		INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-52:12
-		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:1-65:12
+		INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#0x00020000
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:5:5-7:35
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:5:5-7:35
 	android:glEsVersion
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:6:9-41
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:6:9-41
 	android:required
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:7:9-32
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:7:9-32
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:9:5-80
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:9:5-80
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:9:22-77
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:9:22-77
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:10:5-71
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:10:5-71
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:10:22-68
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:10:22-68
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:11:22-77
 application
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:13:5-50:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3da192a091c1212e350150b7c6508c50\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3da192a091c1212e350150b7c6508c50\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:13:5-63:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\94207cc380c82c9e2399e4f6f3bf6f48\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\94207cc380c82c9e2399e4f6f3bf6f48\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\43b776b27c527c1379386d82ca4d7671\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\43b776b27c527c1379386d82ca4d7671\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\6b89da413bf824a844b3f15a0acfcc5f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\6b89da413bf824a844b3f15a0acfcc5f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\d7bfa60290a9771483dbcd7c75a7070e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\d7bfa60290a9771483dbcd7c75a7070e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\03c5992bbbda90d63012d77782f53fdc\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\03c5992bbbda90d63012d77782f53fdc\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\2c2f8089f5c677bda40f8f08e1ed3c3f\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\2c2f8089f5c677bda40f8f08e1ed3c3f\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\f897dd343bb87f804f7105d3c0f0f89d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\f897dd343bb87f804f7105d3c0f0f89d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\f16f7ff8f9162bd15accc28a52eea2da\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\f16f7ff8f9162bd15accc28a52eea2da\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\3408d68991a600583c88146108ca19f6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\3408d68991a600583c88146108ca19f6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\bca52435da78d666855f0f9a364fa98b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\bca52435da78d666855f0f9a364fa98b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\abf0617307b742f63d29d891b915e12c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\abf0617307b742f63d29d891b915e12c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\304c5adf17f2a3aaf77d1102892d2af8\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\304c5adf17f2a3aaf77d1102892d2af8\AndroidManifest.xml:22:5-20
 	android:supportsRtl
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:16:9-41
 	android:icon
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:15:9-38
 	android:allowBackup
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:18:9-40
 activity#example.com.refresh.activties.SplashActivty
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:19:9-29:20
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:19:9-29:20
 	android:screenOrientation
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:22:13-49
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:22:13-49
 	android:label
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:21:13-45
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:21:13-45
 	android:theme
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:23:13-56
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:23:13-56
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:20:13-52
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:20:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:27:27-74
 activity#example.com.refresh.activties.MainActivity
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:30:9-33:59
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:30:9-33:59
 	android:screenOrientation
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:32:13-49
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:32:13-49
 	android:theme
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:31:13-51
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:31:13-51
 activity#example.com.refresh.activties.EqualizeActivity
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:34:9-64
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:34:9-64
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:34:19-61
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:34:19-61
 service#example.com.refresh.services.BackgroundAudioService
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:36:9-39:39
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:36:9-39:39
 	android:enabled
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:38:13-35
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:38:13-35
 	android:exported
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:39:13-36
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:39:13-36
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:37:13-60
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:37:13-60
 receiver#example.com.refresh.utils.OutgoingCallReciever
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:41:9-44:39
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:41:9-44:39
 	android:enabled
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:43:13-35
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:43:13-35
 	android:exported
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:44:13-36
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:42:13-55
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:42:13-55
 activity#example.com.refresh.activties.SearchActivity
-ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:46:9-49:47
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:46:9-49:47
 	android:screenOrientation
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:47:13-49
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:47:13-49
 	android:parentActivityName
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:48:13-65
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:48:13-65
 	android:label
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:49:13-35
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:49:13-35
 	android:name
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml:46:19-59
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:46:19-59
+service#example.com.refresh.notifications.MyFirebaseInstanceIDService
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:51:9-55:19
+	android:name
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:51:18-75
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:52:13-54:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:53:17-80
+	android:name
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:53:25-77
+service#example.com.refresh.notifications.MyFirebaseMessagingService
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:57:9-62:19
+	android:name
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:58:13-69
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:59:13-61:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:60:17-77
+	android:name
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml:60:25-75
 uses-sdk
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3da192a091c1212e350150b7c6508c50\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\3da192a091c1212e350150b7c6508c50\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e9dd0a3b593034ea8dad7a28492c09f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e9dd0a3b593034ea8dad7a28492c09f1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9f74c8b12654004f20f500fdfd6620f2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\9f74c8b12654004f20f500fdfd6620f2\AndroidManifest.xml:20:5-44
-MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\430cfd9556d984fddcd217e1e30b0e16\AndroidManifest.xml:8:5-10:41
-MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\430cfd9556d984fddcd217e1e30b0e16\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\b24594cc29b7fed2574032d7e33653aa\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\b24594cc29b7fed2574032d7e33653aa\AndroidManifest.xml:7:5-9:41
-MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\ccb4f4df83613e9d4625d0bb64b212f4\AndroidManifest.xml:23:5-25:41
-MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\ccb4f4df83613e9d4625d0bb64b212f4\AndroidManifest.xml:23:5-25:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4bb0e9c3a347ec45db9dcabb81d7a841\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\4bb0e9c3a347ec45db9dcabb81d7a841\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9989b3182d328edf390396a5f74f40cd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\9989b3182d328edf390396a5f74f40cd\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c559dcf97fbf2cc17eccee0e70ce6cea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\c559dcf97fbf2cc17eccee0e70ce6cea\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e3a0a2794d2942a61a3943b6e739b7f5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e3a0a2794d2942a61a3943b6e739b7f5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dc0b57c382a10e19ce3729084797a28d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dc0b57c382a10e19ce3729084797a28d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\b5d239652867b6bdce4ea4b2e5f9ed86\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\b5d239652867b6bdce4ea4b2e5f9ed86\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\21c4c8151d501e4997bd576ad4fe4dde\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\21c4c8151d501e4997bd576ad4fe4dde\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bb7a383486d9251fb2fa6f1d1df97d73\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bb7a383486d9251fb2fa6f1d1df97d73\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\9b041f639790d2f3131773e27ed880fe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\9b041f639790d2f3131773e27ed880fe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8716486cb42c16398690ad3f0fc913b8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\8716486cb42c16398690ad3f0fc913b8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\254549e2db4b04bfb577c3c98ffae6f0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\254549e2db4b04bfb577c3c98ffae6f0\AndroidManifest.xml:20:5-44
-MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\2677bf1481aa92c27db23ac7609f5cbf\AndroidManifest.xml:6:5-8:41
-MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\2677bf1481aa92c27db23ac7609f5cbf\AndroidManifest.xml:6:5-8:41
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a2ece566709ee9e6011797727fcd47ee\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a2ece566709ee9e6011797727fcd47ee\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5806fa6239a2db278c2baf5fc24bbf5d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5806fa6239a2db278c2baf5fc24bbf5d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1b6a7f605d10006807c13ec623f4508a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\1b6a7f605d10006807c13ec623f4508a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02a93556eef6804a83c6b51665da847e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\02a93556eef6804a83c6b51665da847e\AndroidManifest.xml:20:5-44
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\94207cc380c82c9e2399e4f6f3bf6f48\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\94207cc380c82c9e2399e4f6f3bf6f48\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\cc205acfa38e303a625391e0c61cc146\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\cc205acfa38e303a625391e0c61cc146\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\43b776b27c527c1379386d82ca4d7671\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\43b776b27c527c1379386d82ca4d7671\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\6b89da413bf824a844b3f15a0acfcc5f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.1.aar\6b89da413bf824a844b3f15a0acfcc5f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\d7bfa60290a9771483dbcd7c75a7070e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\d7bfa60290a9771483dbcd7c75a7070e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\03c5992bbbda90d63012d77782f53fdc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\03c5992bbbda90d63012d77782f53fdc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\2c2f8089f5c677bda40f8f08e1ed3c3f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\2c2f8089f5c677bda40f8f08e1ed3c3f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\f897dd343bb87f804f7105d3c0f0f89d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\f897dd343bb87f804f7105d3c0f0f89d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\f16f7ff8f9162bd15accc28a52eea2da\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\f16f7ff8f9162bd15accc28a52eea2da\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\3408d68991a600583c88146108ca19f6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\3408d68991a600583c88146108ca19f6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\bca52435da78d666855f0f9a364fa98b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\bca52435da78d666855f0f9a364fa98b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\abf0617307b742f63d29d891b915e12c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\abf0617307b742f63d29d891b915e12c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d585b73a1ced944c7071ae3c790b42ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d585b73a1ced944c7071ae3c790b42ad\AndroidManifest.xml:20:5-44
+MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\97bc5e45f9b3d800701d7eb3e4b0867d\AndroidManifest.xml:8:5-10:41
+MERGED from [com.cleveroad:audiovisualization:1.0.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\audiovisualization-1.0.0.aar\97bc5e45f9b3d800701d7eb3e4b0867d\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\c19585cea86b572559b31dee6677f276\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mosamabinomar:AndroidEqualizer:1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\AndroidEqualizer-1.0.aar\c19585cea86b572559b31dee6677f276\AndroidManifest.xml:7:5-9:41
+MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\46ffa1c5b95c06fc4ae9ca8e8253bc80\AndroidManifest.xml:23:5-25:41
+MERGED from [com.h6ah4i.android.widget.verticalseekbar:verticalseekbar:0.7.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\verticalseekbar-0.7.0.aar\46ffa1c5b95c06fc4ae9ca8e8253bc80\AndroidManifest.xml:23:5-25:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\542832b0c291f04d7afd9db5e5009f57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\542832b0c291f04d7afd9db5e5009f57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\000816f3d6c63cba89fceda51bd1d62f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\000816f3d6c63cba89fceda51bd1d62f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\6861e91df283d203a4d5034774f6c7af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\6861e91df283d203a4d5034774f6c7af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\5e8266065bbe255b4fa4889b11b76d19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\5e8266065bbe255b4fa4889b11b76d19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6f443c26402224cbc58dd62d3332a92b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\6f443c26402224cbc58dd62d3332a92b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\4b58adbcddd2284a0502561d27af5cbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\4b58adbcddd2284a0502561d27af5cbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\43e5d17d9aea82745173f4d97ff8e219\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\43e5d17d9aea82745173f4d97ff8e219\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\e37c0f3eda85cc04629ee2f647e70b2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\e37c0f3eda85cc04629ee2f647e70b2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f31d4eeac6c34e034a91b3c821d55004\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\f31d4eeac6c34e034a91b3c821d55004\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\02248f71b1050317f2c74c5d7ee7ed4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\02248f71b1050317f2c74c5d7ee7ed4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\fab682d93d1e357155d1bc33fc5aa3c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\fab682d93d1e357155d1bc33fc5aa3c3\AndroidManifest.xml:20:5-44
+MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\3ca2dfe124960bfa9084027f57b5d398\AndroidManifest.xml:6:5-8:41
+MERGED from [com.diogobernardino:williamchart:2.2] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\williamchart-2.2.aar\3ca2dfe124960bfa9084027f57b5d398\AndroidManifest.xml:6:5-8:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4f983db670b33e943ce4a893ab9ea11c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4f983db670b33e943ce4a893ab9ea11c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5d5a39bbc15cec61ad16b645c2e8f285\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\5d5a39bbc15cec61ad16b645c2e8f285\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fc356efa750a5b95ff00e2f12a69f809\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\fc356efa750a5b95ff00e2f12a69f809\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\304c5adf17f2a3aaf77d1102892d2af8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\304c5adf17f2a3aaf77d1102892d2af8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\479b754c137fe25b29e42b8ace4fc80c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\479b754c137fe25b29e42b8ace4fc80c\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-		ADDED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Apoorv\Desktop\github projects\Refresh-Music-Player\app\src\main\AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\43b776b27c527c1379386d82ca4d7671\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\43b776b27c527c1379386d82ca4d7671\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.4.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.4.0.aar\43b776b27c527c1379386d82ca4d7671\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\5354e607f2bc21074e349e268af3eba4\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.1.1.aar\f370b0cd9f8ad8664ce3006789badc77\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\e126b78779a4de928088ccf60d8b95c7\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.0] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.0.aar\e7e40dd9268ed2ad0915ea86df1677a9\AndroidManifest.xml:51:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\03c5992bbbda90d63012d77782f53fdc\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\03c5992bbbda90d63012d77782f53fdc\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\03c5992bbbda90d63012d77782f53fdc\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\03c5992bbbda90d63012d77782f53fdc\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\03c5992bbbda90d63012d77782f53fdc\AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\3408d68991a600583c88146108ca19f6\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\3408d68991a600583c88146108ca19f6\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\3408d68991a600583c88146108ca19f6\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\3408d68991a600583c88146108ca19f6\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\abf0617307b742f63d29d891b915e12c\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\abf0617307b742f63d29d891b915e12c\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Apoorv\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\abf0617307b742f63d29d891b915e12c\AndroidManifest.xml:24:13-58
