@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_margin="12dp"
+        android:background="@drawable/rounded_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Song Title / Artist"
+        android:inputType="text"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:textColorHint="#6aefae"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:id="@+id/search_box"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/search_green"
+        android:textCursorDrawable="@drawable/cursor_color"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/searchRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:divider="@color/line">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
+</RelativeLayout>
