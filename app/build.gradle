@@ -36,8 +36,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.github.mosamabinomar:AndroidEqualizer:1.0'
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation 'com.google.firebase:firebase-messaging:17.4.0'
 }
 repositories {
     mavenCentral()
     maven { url "https://jitpack.io" }
 }
+apply plugin: 'com.google.gms.google-services'
