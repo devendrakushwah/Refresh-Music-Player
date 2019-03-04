@@ -20,7 +20,7 @@ import android.widget.TextView
 import android.widget.Toast
 import example.com.refresh.R
 import example.com.refresh.R.id.*
-import example.com.refresh.activties.SearchActivity
+import example.com.refresh.activties.MainActivity
 import example.com.refresh.adapters.MainScreenAdapter
 import example.com.refresh.fragments.MainScreenFragment.Statified.mMediaPlayer
 import example.com.refresh.models.Songs
@@ -156,8 +156,10 @@ class MainScreenFragment : Fragment() {
             return false
         }
         else if(switcher == action_search){
-            var searchIntent = Intent(activity,SearchActivity::class.java)
-            startActivity(searchIntent)
+            val searchFragment = SearchFragment()
+            fragmentManager?.beginTransaction()
+                    ?.replace(R.id.details_fragment, searchFragment)
+                    ?.commit()
         }
         return super.onOptionsItemSelected(item)
     }

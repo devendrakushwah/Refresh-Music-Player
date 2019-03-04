@@ -4,7 +4,7 @@
             "outputFile": "E:\\Refresh-Music-Player\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\4bb0e9c3a347ec45db9dcabb81d7a841\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ab970e9545e6286ccdd2afd5a6c9ced3\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\e9dd0a3b593034ea8dad7a28492c09f1\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\c31b45ea1aa5689d1a72fbc1e2d1303a\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -17,7 +17,7 @@ import example.com.refresh.models.Songs
 /**
  * Created by ADMIN on 6/19/2017.
  */
-class MainScreenAdapter(_songDetails: ArrayList<Songs>, _context: Context?) : RecyclerView.Adapter<MainScreenAdapter.MyViewHolder>() {
+class SearchAdapter(_songDetails: ArrayList<Songs>, _context: Context?) : RecyclerView.Adapter<SearchAdapter.MyViewHolder>() {
 
     var songDetails: ArrayList<Songs>? = null
     var mContext: Context? = null

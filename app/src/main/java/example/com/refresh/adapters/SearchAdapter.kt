@@ -1,28 +1,99 @@
 package example.com.refresh.adapters
 
 import android.content.Context
+import android.os.Bundle
+import android.support.v4.app.FragmentActivity
+import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
+import android.view.inputmethod.InputMethodManager
+import android.widget.RelativeLayout
 import android.widget.TextView
 import example.com.refresh.R
+import example.com.refresh.fragments.SongPlayingFragment
 import example.com.refresh.models.Songs
+import android.view.inputmethod.InputMethodManager.HIDE_NOT_ALWAYS
 
-import java.util.ArrayList
 
-class SearchAdapter(context: Context, users: ArrayList<Songs>) : ArrayAdapter<Songs>(context, 0, users) {
 
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        var convertView = convertView
-        val result = getItem(position)
-        if (convertView == null) {
-            convertView = LayoutInflater.from(context).inflate(R.layout.search_result_item, parent, false)
+
+/**
+ * Created by ADMIN on 6/19/2017.
+ */
+class MainScreenAdapter(_songDetails: ArrayList<Songs>, _context: Context?) : RecyclerView.Adapter<MainScreenAdapter.MyViewHolder>() {
+
+    var songDetails: ArrayList<Songs>? = null
+    var mContext: Context? = null
+
+    init {
+        this.songDetails = _songDetails
+        this.mContext = _context
+    }
+
+
+    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
+
+        val songObject = songDetails?.get(position)
+        if (songObject?.artist.equals("<unknown>", ignoreCase = true)) {
+            holder.trackArtist?.text = "unknown"
+        } else {
+            holder.trackArtist?.text = songObject?.artist
         }
-        val tvTitle = convertView!!.findViewById(R.id.search_title) as TextView
-        val tvArtist = convertView!!.findViewById(R.id.search_artist) as TextView
-        tvTitle.setText(result!!.songTitle)
-        tvArtist.setText(result!!.artist)
-        return convertView
+
+        holder.trackTitle?.text = songObject?.songTitle
+        holder.contentHolder?.setOnClickListener({
+            try {
+                if (SongPlayingFragment.Statified.mediaPlayer?.isPlaying as Boolean) {
+                    SongPlayingFragment.Statified.mediaPlayer?.stop()
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+            val songPlayingFragment = SongPlayingFragment()
+            val args = Bundle()
+            args.putString("path", songObject?.songData)
+            args.putString("songTitle", songObject?.songTitle)
+            args.putString("songArtist", songObject?.artist)
+            args.putInt("songPosition", position)
+            args.putInt("SongId", songObject?.songID?.toInt() as Int)
+            args.putParcelableArrayList("songsData", songDetails)
+            songPlayingFragment.arguments = args
+            (mContext as FragmentActivity).supportFragmentManager.beginTransaction()
+                    .replace(R.id.details_fragment, songPlayingFragment)
+                    .addToBackStack("SongPlayingFragmento")
+                    .commit()
+        })
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
+
+        val itemView = LayoutInflater.from(parent.context)
+                .inflate(R.layout.search_result_item, parent, false)
+
+        return MyViewHolder(itemView)
+    }
+
+    override fun getItemCount(): Int {
+        if (songDetails == null) {
+            return 0
+        } else {
+            return (songDetails as ArrayList<Songs>).size
+        }
+
+    }
+
+    class MyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+
+        var trackTitle: TextView? = null
+        var trackArtist: TextView? = null
+        var contentHolder: RelativeLayout? = null
+
+        init {
+            trackTitle = view.findViewById(R.id.search_title) as TextView
+            trackArtist = view.findViewById(R.id.search_artist) as TextView
+            contentHolder = view.findViewById(R.id.contentSearch) as RelativeLayout
+
+        }
     }
 }
