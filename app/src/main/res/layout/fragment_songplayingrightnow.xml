@@ -42,6 +42,14 @@
                 android:layout_margin="11dp"
                 android:background="@drawable/ic_circle"
                 android:src="@drawable/ic_heart_outline" />
+            <ImageButton
+                android:id="@+id/lyricsIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="11dp"
+                android:background="@drawable/ic_circle"
+                android:src="@drawable/lyric" />
         </RelativeLayout>
     </LinearLayout>
 
@@ -55,8 +63,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-
             <RelativeLayout
                 android:id="@+id/information_song"
                 android:layout_width="match_parent"

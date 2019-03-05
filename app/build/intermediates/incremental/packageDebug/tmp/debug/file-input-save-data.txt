@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Tue Mar 05 00:10:51 IST 2019
-0.baseType=DIRECTORY
-0.base=E\:\\Refresh-Music-Player\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-0.path=classes.dex
-0.set=DEX
-count=1

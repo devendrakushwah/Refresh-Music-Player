@@ -1,9 +1,9 @@
 package example.com.refresh.fragments
 
-import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Context
 import android.content.Context.MODE_PRIVATE
+import android.content.Intent
 import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
@@ -24,6 +24,7 @@ import com.cleveroad.audiovisualization.AudioVisualization
 import com.cleveroad.audiovisualization.DbmHandler
 import com.cleveroad.audiovisualization.GLAudioVisualizationView
 import example.com.refresh.R
+import example.com.refresh.activties.LyricsActivity
 import example.com.refresh.database.EchoDatabase
 import example.com.refresh.fragments.SongPlayingFragment.Statified.MY_PREFS_LOOP
 import example.com.refresh.fragments.SongPlayingFragment.Statified.MY_PREFS_NAME
@@ -39,6 +40,7 @@ import example.com.refresh.fragments.SongPlayingFragment.Statified.fastforwardIm
 import example.com.refresh.fragments.SongPlayingFragment.Statified.favouriteContent
 import example.com.refresh.fragments.SongPlayingFragment.Statified.fetchSongs
 import example.com.refresh.fragments.SongPlayingFragment.Statified.loopImageButton
+import example.com.refresh.fragments.SongPlayingFragment.Statified.lyricBtn
 import example.com.refresh.fragments.SongPlayingFragment.Statified.mSensorManager
 import example.com.refresh.fragments.SongPlayingFragment.Statified.mediaPlayer
 import example.com.refresh.fragments.SongPlayingFragment.Statified.playpauseImageButton
@@ -75,6 +77,7 @@ class SongPlayingFragment : Fragment() {
         var currentSongHelper = CurrentSongHelper()
         var currentPosition: Int = 0
         var fab: ImageButton? = null
+        var lyricBtn : ImageButton ?= null
         //var mSensorManager: SensorManager? = null
         var audioV: AudioVisualization? = null
         var activity: Activity? = null
@@ -132,11 +135,16 @@ class SongPlayingFragment : Fragment() {
         rewindImageButton = (view.findViewById(R.id.rewindButton) as ImageButton)
         loopImageButton = (view.findViewById(R.id.loopButton) as ImageButton)
         shuffleImageButton = (view.findViewById(R.id.shuffleButton) as ImageButton)
+
         fab = view.findViewById(R.id.favoriteIcon) as ImageButton
+        lyricBtn = view.findViewById(R.id.lyricsIcon) as ImageButton
+
+
         glView = view.findViewById(R.id.visualizer_view) as GLAudioVisualizationView
         songArtist = view.findViewById(R.id.songTitle) as TextView
         songTitle = view.findViewById(R.id.songArtist) as TextView
         fab?.setAlpha(0.8f)
+        lyricBtn?.setAlpha(0.8f)
         return view
     }
     var mAcceleration: Float = 0f
@@ -483,6 +491,15 @@ class SongPlayingFragment : Fragment() {
 
             }
         })
+
+        lyricBtn?.setOnClickListener {
+            var lyricIntent : Intent = Intent(activity,LyricsActivity::class.java)
+            lyricIntent.putExtra("song", currentSongHelper.songTitle)
+            lyricIntent.putExtra("artist", currentSongHelper.songArtist)
+            startActivity(lyricIntent)
+        }
+
+
         shuffleImageButton?.setOnClickListener({
 
             val editorShuffle = Statified.activity?.getSharedPreferences(MY_PREFS_SHUFFLE, MODE_PRIVATE)?.edit()

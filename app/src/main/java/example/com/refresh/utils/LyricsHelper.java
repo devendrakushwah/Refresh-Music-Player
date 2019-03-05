@@ -24,12 +24,11 @@ public class LyricsHelper {
             Element data = elem.getElementsByTag("a").first();
             int http=data.toString().indexOf("http");
             int html=data.toString().indexOf("html");
-            //Log.d("lyrics",data.toString().substring(http,html+4));
             return data.toString().substring(http,html+4);
         } catch (Exception e) {
             e.printStackTrace();
+            return "";
         }
-        return "";
     }
 
     public String getLyrics(String song, String artist){
@@ -52,10 +51,10 @@ public class LyricsHelper {
             }
             return ans;
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
+            return "";
         }
-        return "";
     }
 
 }
