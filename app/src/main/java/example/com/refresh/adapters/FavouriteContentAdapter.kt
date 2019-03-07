@@ -1,19 +1,19 @@
 package example.com.refresh.adapters
 
 import android.content.Context
-import android.support.v7.widget.RecyclerView
-import android.view.ViewGroup
 import android.media.MediaPlayer
+import android.os.Bundle
+import android.support.v4.app.FragmentActivity
+import android.support.v7.widget.RecyclerView
+import android.view.LayoutInflater
 import android.view.View
-import example.com.refresh.fragments.SongPlayingFragment
-import example.com.refresh.models.Songs
+import android.view.ViewGroup
 import android.widget.RelativeLayout
 import android.widget.TextView
 import example.com.refresh.R
-import android.support.v4.app.FragmentActivity
-import android.os.Bundle
 import example.com.refresh.adapters.FavouriteContentAdapter.FavContentViewHolder
-import android.view.LayoutInflater
+import example.com.refresh.fragments.SongPlayingFragment
+import example.com.refresh.models.Songs
 
 
 /**

@@ -10,6 +10,7 @@ import android.support.v4.app.Fragment
 import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.Menu
 import android.view.View
@@ -25,8 +26,6 @@ import example.com.refresh.fragments.FavouriteFragment.Statified.meediaPlayer
 import example.com.refresh.fragments.SongPlayingFragment.Statified.mediaPlayer
 import example.com.refresh.models.Songs
 import example.com.refresh.utils.CurrentSongHelper
-import android.util.Log
-import java.math.BigInteger
 
 class FavouriteFragment : Fragment() {
 
@@ -212,12 +211,12 @@ class FavouriteFragment : Fragment() {
                 SongPlayingFragment.Statified.mediaPlayer?.pause()
                 playPauseHelper.TrackPosition = mediaPlayer?.getCurrentPosition() as Int
                 playPauseHelper.isPlaying = false
-                playPauseButton?.setBackgroundResource(R.drawable.ic_play_button)
+                playPauseButton?.setBackgroundResource(R.drawable.play)
             } else {
                 SongPlayingFragment.Statified.mediaPlayer?.seekTo(playPauseHelper.TrackPosition)
                 SongPlayingFragment.Statified.mediaPlayer?.start()
                 playPauseHelper.isPlaying = true
-                playPauseButton?.setBackgroundResource(R.drawable.ic_pause_button)
+                playPauseButton?.setBackgroundResource(R.drawable.pause)
             }
         })
 

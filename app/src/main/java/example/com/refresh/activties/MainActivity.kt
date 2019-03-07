@@ -14,8 +14,6 @@ import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
-import android.telephony.PhoneStateListener
-import android.telephony.TelephonyManager
 import example.com.refresh.R
 import example.com.refresh.activties.MainActivity.Staticated.drawerLayout
 import example.com.refresh.activties.MainActivity.Staticated.notificationManager
@@ -31,8 +29,8 @@ import java.util.*
  */
 class MainActivity : AppCompatActivity() {
 
-    var images_for_navdrawer = intArrayOf(R.drawable.music, R.drawable.favorite
-            ,R.drawable.equalizer, R.drawable.settings, R.drawable.about)
+    var images_for_navdrawer = intArrayOf(R.drawable.music_drawer, R.drawable.favourite_drawer
+            ,R.drawable.equalizer_drawer, R.drawable.settings_drawer, R.drawable.about_drawer)
     var navigationDrawerIconsList: ArrayList<String> = arrayListOf()
 
     var trackNotificationBuilder: Notification? = null
@@ -92,10 +90,7 @@ class MainActivity : AppCompatActivity() {
                     .setAutoCancel(true).build()
             notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager?
         }
-
-
     }
-
     override fun onStop() {
         super.onStop()
         //notification handler

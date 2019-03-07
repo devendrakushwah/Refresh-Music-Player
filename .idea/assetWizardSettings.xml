@@ -18,7 +18,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/communication/ic_message_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/toggle/ic_star_border_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -28,11 +28,12 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="2a2a2a" />
-                            <entry key="opacityPercent" value="94" />
-                            <entry key="outputName" value="lyric" />
+                            <entry key="color" value="6aefae" />
+                            <entry key="height" value="32" />
+                            <entry key="outputName" value="rate_drawer" />
                             <entry key="overrideSize" value="true" />
                             <entry key="sourceFile" value="C:\Users\hp" />
+                            <entry key="width" value="32" />
                           </map>
                         </option>
                       </PersistentState>

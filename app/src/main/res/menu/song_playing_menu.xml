@@ -8,7 +8,7 @@
         app:showAsAction="collapseActionView" />
     <item
         android:id="@+id/action_redirect"
-        android:icon="@drawable/ic_redirect"
+        android:icon="@drawable/redirect"
         android:title="@string/action_back"
         app:showAsAction="always" />
 </menu>

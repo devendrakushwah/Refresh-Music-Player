@@ -4,8 +4,9 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -13,14 +14,21 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import example.com.refresh.R;
-import example.com.refresh.utils.LyricsHelper;
+
 public class LyricsActivity extends AppCompatActivity {
 
     TextView lyricsSong,lyricsArtist,lyricsText,lyricsNotFound;
     LinearLayout lyricsLayout;
     ProgressDialog progressDialog;
+    String song,artist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,24 +40,15 @@ public class LyricsActivity extends AppCompatActivity {
         lyricsLayout = findViewById(R.id.lyricsLayout);
         lyricsNotFound = findViewById(R.id.lyricsNotFound);
 
-        progressDialog = ProgressDialog.show(this, "", "Loading...");
-
         Intent i = getIntent();
-        String song = i.getStringExtra("song");
-        String artist = i.getStringExtra("artist");
+        song = i.getStringExtra("song");
+        artist = i.getStringExtra("artist");
         if(artist.contains("unknown")){
             artist=" ";
         }
-        LyricsHelper lh = new LyricsHelper();
-        String lyrics = lh.getLyrics(song,artist);
-        if(!lyrics.equals("")){
-            lyricsSong.setText(song);
-            lyricsArtist.setText(artist);
-            lyricsText.setText(lyrics);
-            lyricsLayout.setVisibility(View.VISIBLE);
-            lyricsNotFound.setVisibility(View.INVISIBLE);
-        }
-        progressDialog.dismiss();
+
+        new fetcher().execute(song,artist);
+
     }
 
     @Override
@@ -90,11 +89,16 @@ public class LyricsActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         String songString = song.getText().toString();
                         String artistString = artist.getText().toString();
-                        Intent intent1 = new Intent(LyricsActivity.this,LyricsActivity.class);
-                        intent1.putExtra("song",songString);
-                        intent1.putExtra("artist",artistString);
-                        startActivity(intent1);
-                        finish();
+                        if(songString.equals("") || artistString.equals("")){
+                            Toast.makeText(LyricsActivity.this, "Cannot be left blank", Toast.LENGTH_SHORT).show();
+                        }
+                        else{
+                            Intent intent1 = new Intent(LyricsActivity.this,LyricsActivity.class);
+                            intent1.putExtra("song",songString);
+                            intent1.putExtra("artist",artistString);
+                            startActivity(intent1);
+                            finish();
+                        }
                     }
                 });
                 builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -107,4 +111,59 @@ public class LyricsActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-}
+
+class fetcher extends AsyncTask<String,String,String> {
+    private Element elem1,elem2=null;
+    private Element data=null;
+    String metroLyrics="";
+    String ans = "";
+
+    @Override
+    protected void onPreExecute() {
+        super.onPreExecute();
+        progressDialog = ProgressDialog.show(LyricsActivity.this, "", "Fetching Lyrics...");
+    }
+
+    @Override
+    protected String doInBackground(String... params) {
+        String song = params[0];
+        String artist = params[1];
+        String url = "https://www.google.com/search?&q="+artist+"+"+song+"+lyrics+metrolyrics";
+        try {
+            //To scrap google
+            Document googlePage = Jsoup.connect(url).get();
+            elem1 = googlePage.getElementsByClass("g").first();
+            data = elem1.getElementsByTag("a").first();
+            int http=data.toString().indexOf("http");
+            int html=data.toString().indexOf("html");
+            metroLyrics = data.toString().substring(http,html+4);
+            //To scrap metrolyrics
+            Document document = Jsoup.connect(metroLyrics).get();
+            Elements elem = document.getElementsByClass("verse");
+            for (Element item:elem) {
+                for (Element j : item.getAllElements()) {
+                    ans += j.wholeText();
+                }
+                ans += "\n";
+            }
+
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        return ans;
+    }
+
+    @Override
+    protected void onPostExecute(String lyrics)
+    {
+        if(!lyrics.equals("")){
+            lyricsSong.setText(song);
+            lyricsArtist.setText(artist);
+            lyricsText.setText(lyrics);
+            lyricsLayout.setVisibility(View.VISIBLE);
+            lyricsNotFound.setVisibility(View.INVISIBLE);
+        }
+        progressDialog.dismiss();
+    }
+}}

@@ -2,16 +2,14 @@ package example.com.refresh.notifications
 
 import android.app.NotificationManager
 import android.app.PendingIntent
-import android.content.ContentValues.TAG
 import android.content.Context
 import android.content.Intent
 import android.media.RingtoneManager
 import android.support.v4.app.NotificationCompat
-import example.com.refresh.activties.SplashActivty
-import android.util.Log
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 import example.com.refresh.R
+import example.com.refresh.activties.SplashActivty
 
 
 class MyFirebaseMessagingService  : FirebaseMessagingService(){

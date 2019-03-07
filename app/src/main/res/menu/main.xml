@@ -8,13 +8,12 @@
         app:showAsAction="always" />
     <item
         android:id="@+id/action_sort"
-        android:icon="@drawable/ic_action_sort"
+        android:icon="@drawable/sort"
         android:title="@string/action_settings"
         app:showAsAction="always">
         <menu>
-            <item
-                android:id="@+id/action_sort_recent"
-                android:title="By recently added" />
+            <item android:title="By recently added"
+                android:id="@+id/action_sort_recent"/>
             <item
                 android:id="@+id/action_sort_ascending"
                 android:title="By name" />

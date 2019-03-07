@@ -1,14 +1,13 @@
 package example.com.refresh.activties
 
+import android.content.Intent
+import android.graphics.Color
+import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
+import android.widget.Toast
+import com.bullhead.equalizer.EqualizerFragment
 import example.com.refresh.R
 import example.com.refresh.fragments.SongPlayingFragment.Statified.mediaPlayer
-import android.content.Intent
-import android.graphics.Color;
-import android.media.MediaPlayer;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.widget.Toast
-import com.bullhead.equalizer.EqualizerFragment;
 
 class EqualizeActivity : AppCompatActivity() {
 

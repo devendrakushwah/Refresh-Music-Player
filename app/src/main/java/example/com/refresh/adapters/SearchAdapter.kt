@@ -7,16 +7,11 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.inputmethod.InputMethodManager
 import android.widget.RelativeLayout
 import android.widget.TextView
 import example.com.refresh.R
 import example.com.refresh.fragments.SongPlayingFragment
 import example.com.refresh.models.Songs
-import android.view.inputmethod.InputMethodManager.HIDE_NOT_ALWAYS
-import android.app.Activity
-import example.com.refresh.fragments.SongPlayingFragment.Statified.activity
-
 
 /**
  * Created by ADMIN on 6/19/2017.

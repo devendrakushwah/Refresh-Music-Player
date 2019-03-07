@@ -8,9 +8,9 @@ import android.view.LayoutInflater
 import android.view.Menu
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import example.com.refresh.R
-import android.widget.Button
 
 
 /**

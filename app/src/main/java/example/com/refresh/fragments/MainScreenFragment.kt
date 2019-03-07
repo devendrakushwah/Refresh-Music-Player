@@ -3,11 +3,9 @@ package example.com.refresh.fragments
 import android.app.Activity
 import android.content.Context
 import android.content.Context.MODE_PRIVATE
-import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.provider.MediaStore
-import android.support.annotation.NonNull
 import android.support.v4.app.Fragment
 import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
@@ -19,13 +17,11 @@ import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
 import example.com.refresh.R
-import example.com.refresh.R.id.*
-import example.com.refresh.activties.MainActivity
+import example.com.refresh.R.id.action_search
+import example.com.refresh.R.id.action_sort_recent
 import example.com.refresh.adapters.MainScreenAdapter
-import example.com.refresh.fragments.MainScreenFragment.Statified.mMediaPlayer
 import example.com.refresh.models.Songs
 import example.com.refresh.utils.CurrentSongHelper
-import org.jetbrains.annotations.NonNls
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -238,14 +234,14 @@ class MainScreenFragment : Fragment() {
         playPauseButton?.setOnClickListener({
             if (playPauseHelper.isPlaying as Boolean) {
                 playPauseHelper.isPlaying = false
-                playPauseButton?.setBackgroundResource(R.drawable.ic_play_button)
+                playPauseButton?.setBackgroundResource(R.drawable.play)
                 SongPlayingFragment.Statified.mediaPlayer?.pause()
                 playPauseHelper.TrackPosition = SongPlayingFragment.Statified.mediaPlayer?.getCurrentPosition() as Int
             } else {
                 SongPlayingFragment.Statified.mediaPlayer?.seekTo(playPauseHelper.TrackPosition)
                 SongPlayingFragment.Statified.mediaPlayer?.start()
                 playPauseHelper.isPlaying = true
-                playPauseButton?.setBackgroundResource(R.drawable.ic_pause_button)
+                playPauseButton?.setBackgroundResource(R.drawable.pause)
             }
         })
 

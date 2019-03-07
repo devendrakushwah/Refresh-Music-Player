@@ -1,6 +1,7 @@
 package example.com.refresh.adapters
 
 import android.content.Context
+import android.content.Intent
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -11,11 +12,10 @@ import android.widget.TextView
 import example.com.refresh.R
 import example.com.refresh.activties.EqualizeActivity
 import example.com.refresh.activties.MainActivity
-import example.com.refresh.fragments.*
-import example.com.refresh.fragments.SongPlayingFragment.Statified.mediaPlayer
-import android.content.Intent
-
-
+import example.com.refresh.fragments.AboutUsFragment
+import example.com.refresh.fragments.FavouriteFragment
+import example.com.refresh.fragments.MainScreenFragment
+import example.com.refresh.fragments.SettingsFragment
 
 
 /**
@@ -71,7 +71,6 @@ class NavigationDrawerAdapter(_contentList: ArrayList<String>, _getImages: IntAr
                             .replace(R.id.details_fragment, aboutUsFragment)
                             .commit()
                 }
-
             }
             MainActivity.Staticated.drawerLayout?.closeDrawers()
         }
