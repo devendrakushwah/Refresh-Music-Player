@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/about_us_text"
             android:layout_centerHorizontal="true"
-            android:text="App version: 1.0"
+            android:text="App version: V1.1"
             android:textColor="#939390"
             android:textSize="17sp" />
 

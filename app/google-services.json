@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "324788051365",
-    "firebase_url": "https://refreshmusicplayer.firebaseio.com",
-    "project_id": "refreshmusicplayer",
-    "storage_bucket": "refreshmusicplayer.appspot.com"
+    "project_number": "4517591134",
+    "firebase_url": "https://refresh-music-player.firebaseio.com",
+    "project_id": "refresh-music-player",
+    "storage_bucket": "refresh-music-player.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:324788051365:android:f35e91bbb645f57c",
+        "mobilesdk_app_id": "1:4517591134:android:f35e91bbb645f57c",
         "android_client_info": {
           "package_name": "example.com.refresh"
         }
       },
       "oauth_client": [
         {
-          "client_id": "324788051365-n3u0092qr7dtc1v9jplrc4kjndcnrrom.apps.googleusercontent.com",
+          "client_id": "4517591134-tdl1dh8mttm93voulu584ueap0q8h07k.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDoMDdsd90z0ql-mT1jq78bH50cP6ndksA"
+          "current_key": "AIzaSyDPEt306Mr6-USDgGYXn2_hbnpfQ3SdRTk"
         }
       ],
       "services": {

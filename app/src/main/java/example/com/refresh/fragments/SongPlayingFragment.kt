@@ -16,6 +16,7 @@ import android.os.Handler
 import android.support.v4.app.Fragment
 import android.support.v4.content.ContextCompat
 import android.view.*
+import android.view.inputmethod.InputMethodManager
 import android.widget.ImageButton
 import android.widget.SeekBar
 import android.widget.TextView
@@ -78,7 +79,6 @@ class SongPlayingFragment : Fragment() {
         var currentPosition: Int = 0
         var fab: ImageButton? = null
         var lyricBtn : ImageButton ?= null
-        //var mSensorManager: SensorManager? = null
         var audioV: AudioVisualization? = null
         var activity: Activity? = null
         var songArtist: TextView? = null
@@ -145,6 +145,10 @@ class SongPlayingFragment : Fragment() {
         songTitle = view.findViewById(R.id.songArtist) as TextView
         fab?.setAlpha(0.8f)
         lyricBtn?.setAlpha(0.8f)
+
+        val imm = activity?.getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
+        imm.hideSoftInputFromWindow(activity?.currentFocus?.windowToken,0)
+
         return view
     }
     var mAcceleration: Float = 0f
@@ -191,7 +195,9 @@ class SongPlayingFragment : Fragment() {
     override fun onPrepareOptionsMenu(menu: Menu?) {
         super.onPrepareOptionsMenu(menu)
         val item: MenuItem? = menu?.findItem(R.id.action_redirect)
+        val lyrics : MenuItem? = menu?.findItem(R.id.action_lyrics)
         item?.isVisible = true
+        lyrics?.isVisible=true
     }
 
     override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
@@ -206,6 +212,12 @@ class SongPlayingFragment : Fragment() {
             R.id.action_redirect -> {
                 activity?.onBackPressed()
                 return false
+            }
+            R.id.action_lyrics ->{
+                var lyricIntent : Intent = Intent(activity,LyricsActivity::class.java)
+                lyricIntent.putExtra("song", currentSongHelper.songTitle)
+                lyricIntent.putExtra("artist", currentSongHelper.songArtist)
+                startActivity(lyricIntent)
             }
 
         }

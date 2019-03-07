@@ -84,7 +84,9 @@ class FavouriteFragment : Fragment() {
 
     override fun onPrepareOptionsMenu(menu: Menu?) {
         val item = menu?.findItem(R.id.action_sort)
+        val item1 = menu?.findItem(R.id.action_search)
         item?.isVisible = false
+        item1?.isVisible = false
     }
 
     override fun onResume() {

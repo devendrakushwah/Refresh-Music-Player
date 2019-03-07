@@ -14,8 +14,8 @@ import example.com.refresh.R
 import example.com.refresh.fragments.SongPlayingFragment
 import example.com.refresh.models.Songs
 import android.view.inputmethod.InputMethodManager.HIDE_NOT_ALWAYS
-
-
+import android.app.Activity
+import example.com.refresh.fragments.SongPlayingFragment.Statified.activity
 
 
 /**
@@ -43,6 +43,9 @@ class MainScreenAdapter(_songDetails: ArrayList<Songs>, _context: Context?) : Re
 
         holder.trackTitle?.text = songObject?.songTitle
         holder.contentHolder?.setOnClickListener({
+
+            //Hide Keyboard
+
             try {
                 if (SongPlayingFragment.Statified.mediaPlayer?.isPlaying as Boolean) {
                     SongPlayingFragment.Statified.mediaPlayer?.stop()
@@ -61,7 +64,7 @@ class MainScreenAdapter(_songDetails: ArrayList<Songs>, _context: Context?) : Re
             songPlayingFragment.arguments = args
             (mContext as FragmentActivity).supportFragmentManager.beginTransaction()
                     .replace(R.id.details_fragment, songPlayingFragment)
-                    .addToBackStack("SongPlayingFragmento")
+                    .addToBackStack("SongPlayingFragment")
                     .commit()
         })
     }

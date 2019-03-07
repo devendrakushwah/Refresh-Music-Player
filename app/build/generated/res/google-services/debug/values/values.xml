@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">324788051365-n3u0092qr7dtc1v9jplrc4kjndcnrrom.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://refreshmusicplayer.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">324788051365</string>
-    <string name="google_api_key" translatable="false">AIzaSyDoMDdsd90z0ql-mT1jq78bH50cP6ndksA</string>
-    <string name="google_app_id" translatable="false">1:324788051365:android:f35e91bbb645f57c</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDoMDdsd90z0ql-mT1jq78bH50cP6ndksA</string>
-    <string name="google_storage_bucket" translatable="false">refreshmusicplayer.appspot.com</string>
-    <string name="project_id" translatable="false">refreshmusicplayer</string>
+    <string name="default_web_client_id" translatable="false">4517591134-tdl1dh8mttm93voulu584ueap0q8h07k.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://refresh-music-player.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">4517591134</string>
+    <string name="google_api_key" translatable="false">AIzaSyDPEt306Mr6-USDgGYXn2_hbnpfQ3SdRTk</string>
+    <string name="google_app_id" translatable="false">1:4517591134:android:f35e91bbb645f57c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDPEt306Mr6-USDgGYXn2_hbnpfQ3SdRTk</string>
+    <string name="google_storage_bucket" translatable="false">refresh-music-player.appspot.com</string>
+    <string name="project_id" translatable="false">refresh-music-player</string>
 </resources>

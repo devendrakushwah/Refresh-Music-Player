@@ -44,10 +44,9 @@ class AboutUsFragment : Fragment() {
 
     override fun onPrepareOptionsMenu(menu: Menu) {
         val item = menu.findItem(R.id.action_sort)
-        if (item == null) {
-        } else {
-            item.isVisible = false
-        }
+        val item1 = menu.findItem(R.id.action_search)
+        item.isVisible = false
+        item1.isVisible = false
     }
 }
 
