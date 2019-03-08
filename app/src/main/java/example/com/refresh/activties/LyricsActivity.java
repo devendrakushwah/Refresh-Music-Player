@@ -40,6 +40,8 @@ public class LyricsActivity extends AppCompatActivity {
         lyricsLayout = findViewById(R.id.lyricsLayout);
         lyricsNotFound = findViewById(R.id.lyricsNotFound);
 
+        lyricsNotFound.setVisibility(View.VISIBLE);
+
         Intent i = getIntent();
         song = i.getStringExtra("song");
         artist = i.getStringExtra("artist");

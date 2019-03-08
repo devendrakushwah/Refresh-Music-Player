@@ -25,7 +25,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@color/colorPrimary"
-        android:clickable="false">
+        android:clickable="false"
+        android:visibility="invisible">
 
         <ImageButton
             android:id="@+id/playpauseButton"

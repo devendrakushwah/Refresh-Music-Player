@@ -11,7 +11,8 @@
         android:text="No lyrics found.\nTry editing song tags\nOr try advance search from above"
         android:layout_centerInParent="true"
         android:textAlignment="center"
-        android:textSize="18dp"/>
+        android:textSize="18dp"
+        android:visibility="invisible"/>
 
     <LinearLayout
         android:padding="8dp"

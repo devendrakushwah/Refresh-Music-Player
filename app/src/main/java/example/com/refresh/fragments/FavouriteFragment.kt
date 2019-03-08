@@ -99,8 +99,8 @@ class FavouriteFragment : Fragment() {
             _getSongs = (favouriteDatabase as EchoDatabase).queryDBforList()
             val fetchList = getListfromStorage()
             if (fetchList != null) {
-                for (i in 0..fetchList?.size - 1) {
-                    for (j in 0.._getSongs?.size as Int - 1) {
+                for (i in 0..fetchList?.size-1) {
+                    for (j in 0.._getSongs?.size as Int-1) {
                         if ((_getSongs as ArrayList<Songs>).get(j).songID === fetchList?.get(i).songID) {
                             (refreshList as ArrayList<Songs>).add((_getSongs as ArrayList<Songs>)[j])
                         } else {

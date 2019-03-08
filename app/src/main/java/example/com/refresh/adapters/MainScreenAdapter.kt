@@ -30,6 +30,7 @@ class SearchAdapter(_songDetails: ArrayList<Songs>, _context: Context?) : Recycl
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
 
+        try{
         val songObject = songDetails?.get(position)
         if (songObject?.artist.equals("<unknown>", ignoreCase = true)) {
             holder.trackArtist?.text = "unknown"
@@ -61,6 +62,9 @@ class SearchAdapter(_songDetails: ArrayList<Songs>, _context: Context?) : Recycl
                     .commit()
         })
     }
+    catch (e:java.lang.Exception){
+        e.printStackTrace()
+    }}
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
 

@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        try{
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val toolbar = findViewById(R.id.toolbar) as Toolbar
@@ -91,6 +92,10 @@ class MainActivity : AppCompatActivity() {
             notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager?
         }
     }
+    catch (e:Exception){
+        e.printStackTrace()
+    }}
+
     override fun onStop() {
         super.onStop()
         //notification handler

@@ -16,6 +16,7 @@ import example.com.refresh.fragments.AboutUsFragment
 import example.com.refresh.fragments.FavouriteFragment
 import example.com.refresh.fragments.MainScreenFragment
 import example.com.refresh.fragments.SettingsFragment
+import java.lang.Exception
 
 
 /**
@@ -35,44 +36,49 @@ class NavigationDrawerAdapter(_contentList: ArrayList<String>, _getImages: IntAr
     }
 
     override fun onBindViewHolder(holder: NavigationDrawerAdapter.NavViewHolder, position: Int) {
-        holder.text_GET?.setText(contentList?.get(position))
-        holder.icon_GET?.setBackgroundResource(getImages?.get(position) as Int)
-        holder.contentHolder?.setOnClickListener {
-            when (position) {
-                0 -> {
-                    val mainScreenFragment = MainScreenFragment()
-                    (mContext as MainActivity).supportFragmentManager
-                            .beginTransaction()
-                            .replace(R.id.details_fragment, mainScreenFragment)
-                            .commit()
-                }
-                1 -> {
-                    val favouriteFragment = FavouriteFragment()
-                    (mContext as MainActivity).supportFragmentManager
-                            .beginTransaction()
-                            .replace(R.id.details_fragment, favouriteFragment)
-                            .commit()
-                }
-                2 -> {
-                    mContext?.startActivity(Intent(mContext, EqualizeActivity::class.java))
-                }
-                3 -> {
-                    val settingsFragment = SettingsFragment()
-                    (mContext as MainActivity).supportFragmentManager
-                            .beginTransaction()
-                            .replace(R.id.details_fragment, settingsFragment)
-                            .commit()
+        try {
+            holder.text_GET?.setText(contentList?.get(position))
+            holder.icon_GET?.setBackgroundResource(getImages?.get(position) as Int)
+            holder.contentHolder?.setOnClickListener {
+                when (position) {
+                    0 -> {
+                        val mainScreenFragment = MainScreenFragment()
+                        (mContext as MainActivity).supportFragmentManager
+                                .beginTransaction()
+                                .replace(R.id.details_fragment, mainScreenFragment)
+                                .commit()
+                    }
+                    1 -> {
+                        val favouriteFragment = FavouriteFragment()
+                        (mContext as MainActivity).supportFragmentManager
+                                .beginTransaction()
+                                .replace(R.id.details_fragment, favouriteFragment)
+                                .commit()
+                    }
+                    2 -> {
+                        mContext?.startActivity(Intent(mContext, EqualizeActivity::class.java))
+                    }
+                    3 -> {
+                        val settingsFragment = SettingsFragment()
+                        (mContext as MainActivity).supportFragmentManager
+                                .beginTransaction()
+                                .replace(R.id.details_fragment, settingsFragment)
+                                .commit()
 
+                    }
+                    4 -> {
+                        val aboutUsFragment = AboutUsFragment()
+                        (mContext as MainActivity).supportFragmentManager
+                                .beginTransaction()
+                                .replace(R.id.details_fragment, aboutUsFragment)
+                                .commit()
+                    }
                 }
-                4 -> {
-                    val aboutUsFragment = AboutUsFragment()
-                    (mContext as MainActivity).supportFragmentManager
-                            .beginTransaction()
-                            .replace(R.id.details_fragment, aboutUsFragment)
-                            .commit()
-                }
+                MainActivity.Staticated.drawerLayout?.closeDrawers()
             }
-            MainActivity.Staticated.drawerLayout?.closeDrawers()
+        }
+        catch (e:Exception){
+            e.printStackTrace()
         }
     }
 

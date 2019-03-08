@@ -25,21 +25,25 @@ class SplashActivty : AppCompatActivity() {
             Manifest.permission.RECORD_AUDIO)
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash_screen)
-        if (!hasPermissions(this@SplashActivty, *permissionsString)) {
-            ActivityCompat.requestPermissions(this@SplashActivty, permissionsString, 131)
-            //Do nothing here because permissions aren't granted
+        try {
+            super.onCreate(savedInstanceState)
+            setContentView(R.layout.activity_splash_screen)
+            if (!hasPermissions(this@SplashActivty, *permissionsString)) {
+                ActivityCompat.requestPermissions(this@SplashActivty, permissionsString, 131)
+                //Do nothing here because permissions aren't granted
 
-        } else {
-            Handler().postDelayed({
-                val startAct = Intent(this@SplashActivty, MainActivity::class.java)
-                startActivity(startAct)
-                // close this activity
-                this.finish()
-            }, SplashActivty.Staticated.SPLASH_TIME_OUT.toLong())
+            } else {
+                Handler().postDelayed({
+                    val startAct = Intent(this@SplashActivty, MainActivity::class.java)
+                    startActivity(startAct)
+                    // close this activity
+                    this.finish()
+                }, SplashActivty.Staticated.SPLASH_TIME_OUT.toLong())
+            }
         }
-
+        catch (e:Exception){
+            e.printStackTrace()
+        }
 
     }
 

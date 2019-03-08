@@ -11,7 +11,11 @@ import android.view.Menu
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Switch
+import android.widget.TextView
 import example.com.refresh.R
+import android.content.Intent
+import android.content.ActivityNotFoundException
+import android.net.Uri
 
 
 /**
@@ -26,6 +30,8 @@ class SettingsFragment : Fragment() {
 
     var shakeSwitch: Switch? = null
     var _activity: Activity? = null
+    var rate : TextView? = null
+    var share : TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -70,6 +76,34 @@ class SettingsFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_settings, container, false)
         activity?.title = "Settings"
         shakeSwitch = view.findViewById(R.id.switchShake) as Switch
+        rate = view.findViewById(R.id.settings_rate) as TextView
+        share = view.findViewById(R.id.settings_share) as TextView
+
+        rate?.setOnClickListener({
+
+            //Handle Rate us
+            val uri = Uri.parse("market://details?id=" + activity?.getPackageName())
+            val goToMarket = Intent(Intent.ACTION_VIEW, uri)
+            goToMarket.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY or
+                    Intent.FLAG_ACTIVITY_NEW_DOCUMENT or
+                    Intent.FLAG_ACTIVITY_MULTIPLE_TASK)
+            try {
+                startActivity(goToMarket)
+            } catch (e: ActivityNotFoundException) {
+                startActivity(Intent(Intent.ACTION_VIEW,
+                        Uri.parse("http://play.google.com/store/apps/details?id=" + activity?.getPackageName())))
+            }
+        })
+
+        share?.setOnClickListener({
+            val sharingIntent = Intent(android.content.Intent.ACTION_SEND)
+            sharingIntent.type = "text/plain"
+            var shareBody = "Download Refresh Music Player now!!!\nWith in-built lyrics search & equalizer\nLink: "
+            shareBody += "http://play.google.com/store/apps/details?id=" + activity?.getPackageName()
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Download Refresh Music Player")
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody)
+            startActivity(Intent.createChooser(sharingIntent, "Share via"))
+        })
         return view
     }
 
