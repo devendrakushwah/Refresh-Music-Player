@@ -14,7 +14,9 @@ The main focus of this project is to create an music player that is optimized fo
 4. Shake to change song
 5. Automatic in-app lyrics
 6. Advanced lyrics search
+
 A basic favorite management functionality is also part of this player.
+Uses Firebase Cloud Messaging to send notifications.
 
 ## Can I fork this project, put it on the Google Play Store and put my ads on it? 
 Unless you meet all the criteria, the short answer is "No and I will get your fork taken down".
