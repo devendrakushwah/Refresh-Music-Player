@@ -3,6 +3,8 @@
 This is the source code repository of the Refresh Music Player.
 The main focus of this project is to create an music player that is optimized for speed and to keep the UI as simple as possible.
 
+[![Download](https://github.com/devendrakushwah/Refresh-Music-Player/blob/master/screens/download_btn.png)](https://github.com/devendrakushwah/Refresh-Music-Player/releases)
+
 ## Screenshots : 
 ![Screenshot](https://github.com/devendrakushwah/Refresh-Music-Player/blob/master/screens/screenshot.jpg)
 
