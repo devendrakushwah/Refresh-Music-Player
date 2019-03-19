@@ -1,11 +1,14 @@
 # Refresh Music Player ![CI status](https://img.shields.io/badge/build-beta-orange.svg)
 [![Download](https://github.com/devendrakushwah/Refresh-Music-Player/blob/master/screens/gp.png)](https://play.google.com/store/apps/details?id=example.com.refresh)
 ## About :
-This is the source code repository of the Refresh Music Player.
-The main focus of this project is to create an music player that is optimized for speed and to keep the UI as simple as possible.
-It's main features are a Intuitive UI, beautiful visualizer, 5 Band Equalizer and Shake to change song.
+This is the source code repository of the Refresh, a music player that is optimized for speed.
+The app's main features are:
+1. Simplistic and intuitive UI
+2. Beautiful Visualizations
+3. 5 Band Equalizer
+4. Shake to change songs
+5. Managing favorite songs
 
-A basic favorite management functionality is also part of this player.
 ## Screenshots : 
 ![Screenshot](https://github.com/devendrakushwah/Refresh-Music-Player/blob/master/screens/screen.jpg)
 ## Requirements :
