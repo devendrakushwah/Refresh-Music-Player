@@ -7,7 +7,7 @@ It's main features are a Intuitive UI, beautiful visualizer, 5 Band Equalizer an
 
 A basic favorite management functionality is also part of this player.
 ## Screenshots : 
-![Screenshot](https://github.com/devendrakushwah/Refresh-Music-Player/blob/master/screens/screen.jpg)
+![Screenshot](https://github.com/devendrakushwah/Refresh-Music-Player/blob/master/screens/screenshot.jpg)
 ## Requirements :
 1. Android 5.0
 2. Music on your device
