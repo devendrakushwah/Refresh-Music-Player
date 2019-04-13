@@ -34,4 +34,4 @@ This project is open to contributors for bug fixes, improvements & new features.
 2. [Android Equalizer](https://github.com/mosamabinomar/AndroidEqualizer)
 
 ## License
-None
+GNU General Public License v3.0
